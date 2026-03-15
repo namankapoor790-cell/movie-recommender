@@ -50,18 +50,18 @@ Movie lovers who are done watching a great film and want 5 more exactly like it.
 - [x] Fix CORS issues
 - [ ] Test on mobile (manual — open localhost:5173 on phone)
 
-### Phase 6 — Deploy ⬜
-- [ ] Deploy backend to Render
-- [ ] Deploy frontend to Vercel
-- [ ] Set all environment variables on both platforms
+### Phase 6 — Deploy ✅
+- [x] Deploy backend to Render
+- [x] Deploy frontend to Vercel
+- [x] Set all environment variables on both platforms
 - [ ] Smoke test on live URLs
 - [ ] Share live link
 
 ## Current Sprint
 > Update this section every session so Claude knows what you're working on.
 
-**Working on:** Phase 6 — Deploy (Vercel + Render)
-**Last completed:** Phase 5 — all integration tests passing
+**Working on:** Phase 6 — Smoke testing live URLs
+**Last completed:** Backend + frontend deployed
 **Blocked by:** Nothing
 
 ## Known Issues / Bugs
@@ -96,6 +96,6 @@ Last migration: Phase 1 — created movies, movie_embeddings, movie_metadata tab
 - Last pipeline run: 2026-03-15
 
 ## Deployment URLs
-- Frontend (Vercel): Not deployed yet
-- Backend (Render): Not deployed yet
+- Frontend (Vercel): https://movie-recommender-navy-iota.vercel.app
+- Backend (Render): https://movie-recommender-uin8.onrender.com
 - Supabase project: Not linked yet
